@@ -1,0 +1,151 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat&display=swap');;
+
+@keyframes underline-animation {
+    from {text-decoration-color:#00acee;}
+    to {text-decoration-color: white;}
+  }
+
+@keyframes bottom-open-animation{
+    from {position:fixed; bottom:85%;}
+    to {position:fixed; bottom:0%;}
+  }
+@keyframes middle-open-animation{
+    from {margin-top:-100%;}
+    to {margin-bottom:60px;}
+  }
+
+*{
+    margin:0;
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+}
+
+body{
+    background-image: url(images/background.png);
+    background-color: rgba(30, 30, 30, 50);
+    background-size: 100%;
+    height:100%;
+    width:100%;
+}
+
+header{
+    width: 100%;
+    height: 5%;
+}
+
+h3{
+    margin:10px 0px;
+    margin-top:40px;
+    font-size: 24px;
+    font-weight: bolder;
+}
+
+nav{
+    margin-bottom: 10px;
+    height:5%;
+}
+
+ul{
+    width:70%;
+    float: right;
+    text-align: right;
+    padding:20px;
+    padding-left:0px;
+}
+
+li{
+    position:relative;
+    display: inline-block;
+    padding-top: 0px;
+    padding-right:1%;
+}
+
+.nav-options{
+    text-align: center;
+    text-decoration: none;
+    font-size: 25px;
+}
+
+b{
+    color: white;
+    margin-bottom:20px;
+    font-size:20px;
+}
+
+.nav-options:hover{
+    color: #4D5751;
+    transition: 0.5s;
+}
+
+.title{
+    float: left;
+    padding:20px;
+    padding-right:0px;
+    font-size: 25px;
+    color: #1DA1F2;
+}
+
+.page-title{
+    margin: 15px 0px;
+    margin-top:25px;
+    font-size: 80px;
+    margin-bottom:60px;
+}
+
+.top{
+    background-image: linear-gradient(rgb(30,30,30), rgba(30,30,30,0.98), rgba(30,30,30,0.9), rgba(30,30,30,0.1));
+    z-index: 5;
+    position: fixed;
+    width:100%;
+    top:0px;
+}
+
+.middle{
+    position:relative;
+    margin-top: 0px;
+    background-color: None;
+    padding: 30px 10%;
+    padding-top:50px;
+    padding-bottom:100px;
+    animation: middle-open-animation 0.7s ease-out;
+}
+
+.bottom{
+    background-image: linear-gradient(to top, rgb(30,30,30), rgba(30,30,30,0.98), rgba(30,30,30,0.9), rgba(30,30,30,0.1));
+    text-align: center;
+    height:60px;
+    width:100%;
+    position:fixed;
+    animation: bottom-open-animation 0.5s ease-out;
+    bottom:0%;
+}
+
+.icon{
+    padding:5px;
+    width: 50px;
+    height:50px;
+}
+
+.emaillink{
+    position: relative;
+    top:-25px;
+    color: white;
+    font-size: 20px;
+}
+
+.bottom-link{
+    height: 50px;
+    width: 50px;
+}
+
+#inv-link{
+    position: relative;
+    padding: 0px;
+    top: 20px;
+}
+
+#current{
+    text-decoration: underline;
+    animation: underline-animation 1s ease;
+}
+/*base-64*/

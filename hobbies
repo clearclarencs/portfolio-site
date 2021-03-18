@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <title>James Skipworth</title>
+        <link rel="stylesheet" href="me.css">
+        <link rel="icon" href="images/js.png">
+    <script>
+    function CaptureTheFlag(){
+    console.log("CAPTURE THE FLAG, FIRST CLUE IS HIDDEN IN THIS WEBPAGE")
+    };
+    CaptureTheFlag();
+    </script>
+    </head>
+    <header>
+        <div class="top">
+            <nav>
+                <h1 class="title">James Skipworth</h1>
+                <ul>
+                    <li><a href="/me" class="nav-options">About me</a></li>
+                    <li><a href="/education" class="nav-options">Education</a></li>
+                    <li><a href="/hobbies" id="current" class="nav-options">Hobbies</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <body>
+        <div class="middle">
+            <h2 class="page-title">Hobbies</h2>
+            <h3>Programming</h3>
+            <b>Since a young age I have been fascinated by technological innovations especially with consumer electronics, I was able to pursue this interest through programming at GCSE and since have developed my programming knowledge and skills. I fluently know Python which i use for most of my projects like web request automation, discord bots and freelance development for clients. I also learnt HTML5 and CSS3 which i used to create this website and am in the process of learning Javascript as it is a very versatile programming language essential for modern day software development.</b><br /></b>
+            <a href="/monitors" target="_blank"> Monitor business</a>
+            <h3>Resell</h3>
+            <b>Since 2017 I have also been trading limited goods usually clothing and footwear which includes attempting to purchase the very limited item before they sell out then reselling onto consumers for a profit. This is due to the supply and demand being out of equalibrium and price must be raised to allow them to meet. I enjoy doing it as it requires constant learning and self improvement aswell as consisting of an amazing community of like-minded people.<br /></b>
+            <a href="https://drive.google.com/open?id=1tHLYFG9hQLYcjbS3wMkrugJaGdYh2cF2" target="_blank"> Resell Portfolio</a>
+            <h3>London Academy of Trading</h3>
+            <b>For a week over the summer of 2018 I was participating in a work experience placement at the London Academy of Trading. This involved shadowing full-time traders which helped me to learn about how to trade, spotting trends in data and predicting what will happen to prices. This was an incredible experience learning how mathematical this process is and I am excited to pick it back up as I turn 18.</b>
+        </div>
+        <div class="bottom">
+            <a href="https://github.com/clearclarencs" target="_blank"><img src="images/twitter.png" class="icon" id="twitter" href></a>
+            <a class="emaillink" href="mailto:jamesmbskipworth@gmail.com" target="_blank">JamesMBSkipworth@gmail.com</a>
+            <a href="https://www.linkedin.com/in/james-skipworth-577578195/" target="_blank"><img src="images/linkedin.png" class="icon" id="linkedin" href></a>
+        </div>
+    </body>
+</html>
+<!--aHR0cHM6Ly9wYXN0ZWJpbi5jb20vaVJ1MVJ2aGs=-->

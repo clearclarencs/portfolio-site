@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <title>James Skipworth</title>
+        <link rel="stylesheet" href="me.css">
+        <link rel="icon" href="images/js.png">
+    <script>
+    </script>
+    </head>
+    <header>
+        <div class="top">
+            <nav>
+                <h1 class="title">Clarencs Monitors</h1>
+                <ul>
+                    <li><a href="/monitors" id="current" class="nav-options">Raffle</a></li>
+                    <li><a href="/dsm-monitor" class="nav-options">DSM</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <body>
+        <div class="middle">
+            <h2 class="page-title">Raffle Monitor</h2>
+            <img src="images/raffle_monitor.png" style="float:right">
+            <h3>Never miss a raffle</h3>
+            <b>The monitor scrapes the web to find raffles from thousands of retailers so you never miss a raffle again.</b>
+            <h3>Easy to use</h3>
+            <b>Webhooks contain useful information like which countries can enter, resell value and ending times.</b>
+            <h3>Useful for all members</h3>
+            <b>Ability to use filtered channels so members will only be notified for raffles they need.</b>
+            <h3>Reliable</h3>
+            <b>With over 10 current businesses reliant on our service and years of experience within the industry you can count on us for all your sneaker raffle news.</b>
+            <h3>Seemless</h3>
+            <b>Branded to your group the monitor will seemlessly blend into your brand image.</b>
+        </div>
+        <div class="bottom">
+            <a id="inv-link" href="https://discord.gg/QTPcf3e" target="_blank">Join our client server</a>
+        </div>
+    </body>
+</html>

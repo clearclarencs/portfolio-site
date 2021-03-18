@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <title>James Skipworth</title>
+        <link rel="stylesheet" href="me.css">
+        <link rel="icon" href="images/js.png">
+    <script>
+    </script>
+    </head>
+    <header>
+        <div class="top">
+            <nav>
+                <h1 class="title">Clarencs Monitors</h1>
+                <ul>
+                    <li><a href="/monitors" class="nav-options">Raffle</a></li>
+                    <li><a href="/dsm-monitor" id="current" class="nav-options">DSM</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <body>
+        <div class="middle">
+            <h2 class="page-title">DSM News Monitor</h2>
+            <img src="images/dsm_monitor.png" style="float:right">
+            <h3>Never miss a drop</h3>
+            <b>Scrapes DSM's news section to find upcoming drops to be notified within seconds.</b>
+            <h3>Filtered</h3>
+            <b>News can be filtered into type of release so members can chose what to get notified for.</b>
+            <h3>Essential</h3>
+            <b>With DSM's raffle system being so short this ensures you are notified before closure.</b>
+            <h3>Blazing fast</h3>
+            <b>Built in nodejs to ensure maximum speed between the site and you.</b>
+        </div>
+        <div class="bottom">
+            <a id="inv-link" href="https://discord.gg/QTPcf3e" target="_blank">Join our client server</a>
+        </div>
+    </body>
+</html>

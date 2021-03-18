@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <title>James Skipworth</title>
+        <link rel="stylesheet" type="text/css" href="me.css">
+        <link rel="icon" href="images/js.png">
+    </head>
+    <header>
+        <div class="top">
+            <nav>
+                <h1 class="title">James Skipworth</h1>
+                <ul>
+                    <li><a href="/me" id="current" class="nav-options">About me</a></li>
+                    <li><a href="/education" class="nav-options">Education</a></li>
+                    <li><a href="/hobbies" class="nav-options">Hobbies</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <body>
+        <div class="middle">
+            <h2 class="page-title">About Me</h2>
+            <b>I am a 17-year-old very motivated individual with a good skillset and a high achiever. I am very academic and enjoy problems / challenges and work well under pressure. My main subject areas are Maths, Sciences and IT. I enjoy challenges whilst working and work well under pressure. I have recently completed my GCSE’s studying the core subjects together with Computer science, Triple science, Product design and Geography.</b>
+            <b><br /><br /><br />I am cuurently enrolled in sixth form at Rober Smyth Academy, I am studying for an AS-Level in Physics and A-Level in Economics, Mathematics And Computer Studies.<br /><br /><br />I take a methodical approach to tasks and am eager to learn new skills in a multitude of areas. I work well with computers and adapt to a specific task and can stick at it.  Through experiences, my teamwork skills have advanced and I work well in a team.</b>
+            <h3><br />Homebase LLC Sales Associate</h3>
+            <b>Since summer 2019 I worked as a sales associate at Homebase Store Market Harborough. This involves working as a team to provide expertise and friendly service to customers asewell as the commitment of a part-time job. Key skills required are punctuality, determination and hard-work.</b>
+        </div>
+        <div class="bottom">
+            <a href="https://twitter.com/JamesSkipworth8" class="bottom-link" id="twitter-link" ><img src="images/twitter.png" alt="Twitter" class="icon" id="twitter-image"></a>
+            <a class="emaillink" href="mailto:jamesmbskipworth@gmail.com">JamesMBSkipworth@gmail.com</a>
+            <a href="https://www.linkedin.com/in/james-skipworth-577578195/" class="bottom-link" id="linkedin-link" ><img src="images/linkedin.png" alt="Linkedin" class="icon" id="linkedin-image"></a>
+        </div>
+    </body>
+</html>
+<!--First HTML project created christmas 2019-->
+
