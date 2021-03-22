@@ -53,11 +53,16 @@ ul{
     padding-left:0px;
 }
 
-li{
+.menu{
     position:relative;
     display: inline-block;
     padding-top: 0px;
     padding-right:1%;
+}
+
+.vert-list{
+    padding: 0px;
+    padding-bottom: 10px;
 }
 
 .nav-options{
@@ -114,6 +119,31 @@ button{
     padding-bottom:100px;
     animation: middle-open-animation 0.7s ease-out;
     text-align: left;
+}
+
+#education-middle-left{
+    width: 45%;
+    padding-right: 10px;
+    padding-left: 20px;
+    margin: 0px;
+    float: left;
+}
+
+#education-middle-right{
+    width: 45%;
+    padding-left: 20px;
+    padding-right: 20px;
+    float: right;
+}
+
+@media all and (max-width: 1100px) {
+    #education-middle-right{
+        float: left;
+        width: 90%;
+    }
+    #education-middle-left{
+        width: 90%;
+    }
 }
 
 #center-align{
