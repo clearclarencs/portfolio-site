@@ -188,4 +188,11 @@ button{
     text-decoration: underline;
     animation: underline-animation 1s ease;
 }
+/* Skill Box */
+#skillBox{
+    width:90%;
+    height: 300px;
+}
+
+
 /*base-64*/
