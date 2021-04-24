@@ -7,6 +7,19 @@
         <link rel="icon" href="images/js.png">
         <script src="https://cdn.jsdelivr.net/npm/p5@1.3.1/lib/p5.min.js"></script>
         <script src="js/particles.js"></script>
+        <script>
+            window.addEventListener('load', async function () {
+                let titleText = "I am a freelance backend software developer from the UK"
+                let soFar = ""
+                for (letter in titleText) {
+                    await new Promise(resolve => setTimeout(resolve, (Math.random() * 50) + 50));
+                    console.log(letter);
+                    soFar += titleText[letter]
+                    document.getElementsByClassName("page-title")[0].innerHTML = soFar;
+
+                }
+            });
+        </script>
     </head>
     <header>
         <div class="top">
@@ -22,10 +35,19 @@
     </header>
     <body>
         <div class="middle">
-            <h2 class="page-title">I am a freelance backend software developer from the UK</h2>
-            <b>I specialise in web-requests, discord bots and have full-stack web development experience.</b>
+            <h2 class="page-title"></h2>
+            <b>I specialise in web-requests, data manipulation and have full-stack web development experience.</b>
             <h3>Skillset</h3>
             <div id="skillBox"></div>
+            <h2 class="page-title">Hobbies</h2>
+            <h3>Programming</h3>
+            <b>Since a young age I have been fascinated by technological innovations especially with consumer electronics, I was able to pursue this interest through programming at GCSE and since have developed my programming knowledge and skills. I fluently know Python which i use for most of my projects like web request automation, discord bots and freelance development for clients. I also learnt HTML5 and CSS3 which i used to create this website and am in the process of learning Javascript as it is a very versatile programming language essential for modern day software development.</b><br /></b>
+            <a href="/monitors" target="_blank"> Monitor business</a>
+            <h3>Resell</h3>
+            <b>Since 2017 I have also been trading limited goods usually clothing and footwear which includes attempting to purchase the very limited item before they sell out then reselling onto consumers for a profit. This is due to the supply and demand being out of equalibrium and price must be raised to allow them to meet. I enjoy doing it as it requires constant learning and self improvement aswell as consisting of an amazing community of like-minded people.<br /></b>
+            <a href="https://drive.google.com/open?id=1tHLYFG9hQLYcjbS3wMkrugJaGdYh2cF2" target="_blank"> Resell Portfolio</a>
+            <h3>London Academy of Trading</h3>
+            <b>For a week over the summer of 2018 I was participating in a work experience placement at the London Academy of Trading. This involved shadowing full-time traders which helped me to learn about how to trade, spotting trends in data and predicting what will happen to prices. This was an incredible experience learning how mathematical this process is and I am excited to pick it back up as I turn 18.</b>
         </div>
         <div class="bottom">
             <a href="https://github.com/clearclarencs" class="bottom-link" id="twitter-link" ><img src="images/twitter.png" alt="Twitter" class="icon" id="twitter-image"></a>
