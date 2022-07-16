@@ -34,7 +34,7 @@ header{
 }
 
 h3{
-    margin:10px 0px;
+    margin: 10px 0px;
     margin-top:40px;
     font-size: 24px;
     font-weight: bolder;
@@ -82,8 +82,9 @@ button{
     border: none;
 }
 
-.nav-options:hover{
+.clickable:hover{
     color: #4D5751;
+    opacity:0.2;
     transition: 0.5s;
 }
 
@@ -188,11 +189,25 @@ button{
     text-decoration: underline;
     animation: underline-animation 1s ease;
 }
-/* Skill Box */
+
 #skillBox{
     width:90%;
     height: 300px;
+}  
+
+#wise-image{
+    position: relative;
+    height: 30px;
+    width: fit-content;
+    border-radius: 10px;
+    padding: 0px;
+    margin-left: 20px;
+    margin-bottom: 8px;
+    display: inline-block;
+    vertical-align: bottom;
+
 }
 
-
-/*base-64*/
+.text-image{
+    display: inline-block;
+}
