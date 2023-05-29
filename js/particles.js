@@ -2,7 +2,7 @@ let skillObj;
 let fontSize = 32;
 var skills = [];
 
-const skillNames = ["Python", "Javascript", "Git", "HTML", "CSS", "SQL", "Linux", "Docker"]
+const skillNames = ["Python", "JavaScript", "Git", "HTML", "CSS", "SQL", "Linux", "Django", "Flask"]
 
 function between(x, min, max) {
   return x >= min && x <= max;
