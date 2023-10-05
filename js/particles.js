@@ -12,11 +12,16 @@ function setup() {
   var canvasDiv = document.getElementById('skillBox');
   var canvas = createCanvas(canvasDiv.offsetWidth, canvasDiv.offsetHeight);
   canvas.parent('skillBox');
-  for (skillName in skillNames){
-    x = random(width);
-    y = random(height);
-    skills.push({"name":skillNames[skillName], "x":x, "y":y, "xspeed": 0.5, "yspeed":0.5})
-  }
+  skills = [
+    {"name":"Python", "x":random(30,70), "y":random(30,70), "xspeed": 0.5, "yspeed":0.5},
+    {"name":"JavaScript", "x":random(280,320), "y":random(30,70), "xspeed": 0.5, "yspeed":0.5},
+    {"name":"Git", "x":random(580,620), "y":random(30,70), "xspeed": 0.5, "yspeed":0.5},
+    {"name":"HTML", "x":random(30,70), "y":random(120,170), "xspeed": 0.5, "yspeed":0.5},
+    {"name":"CSS", "x":random(30,70), "y":random(280,320), "xspeed": 0.5, "yspeed":0.5},
+    {"name":"SQL", "x":random(230,270), "y":random(120,180), "xspeed": 0.5, "yspeed":0.5},
+    {"name":"Linux", "x":random(580,620), "y":random(580,620), "xspeed": 0.5, "yspeed":0.5},
+  ];
+
 }
 
 function windowResized() {
